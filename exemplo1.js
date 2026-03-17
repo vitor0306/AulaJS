@@ -1,0 +1,10 @@
+function somar2numeros()
+{
+    let numero1, numero2, soma;
+    numero1 = document.getElementById("numero1").value;
+    numero1 = document.getElementById("numero1").value;
+
+    soma = Number(numero1) + Number (numero2)
+    
+    document.getElementById("resultado").innerHTML="ola!!!";
+}

@@ -1,0 +1,5 @@
+document.write("<h1> bem vindo ao exercici 8 aula 01")
+var peso = prompt ("escreva seu peso em quilos")
+var altura = prompt ("escreva sua altura em metros")
+var imc = Number(peso)/ ((altura)*(altura))
+document.write ("<p> o seu indice de massa e " + imc + "</p>")

@@ -1,0 +1,6 @@
+document.write("<h1> bem vindo ao exercici 9 aula 01")
+var inicial = prompt ("escreva o valor inicial da divida")
+var juros = prompt("escreva a taxa de juros em porcentagem")
+var tempo = prompt ("escreva a quanto tempo esta devendo")
+var montante = Number(inicial) * Number(1+Number((juros)*Number(tempo))) 
+document.write ("<p>o montante da divida e " + montante + "</p>")
